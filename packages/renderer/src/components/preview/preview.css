@@ -4,6 +4,7 @@
   box-sizing: border-box;
   overflow: auto;
   color: #abb2bf;
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .preview.markdown-body pre {

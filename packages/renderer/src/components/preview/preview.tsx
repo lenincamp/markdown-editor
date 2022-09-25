@@ -1,11 +1,10 @@
 import React from 'react'
 import { unified } from 'unified'
 import remarkParse from 'remark-parse'
-import { defaultSchema } from 'hast-util-sanitize'
 import remarkGfm from 'remark-gfm'
-import 'github-markdown-css/github-markdown.css'
 import remarkReact from 'remark-react'
-
+import { defaultSchema } from 'hast-util-sanitize'
+import 'github-markdown-css/github-markdown.css'
 import RemarkCode from '../remark-code'
 import './preview.css'
 
